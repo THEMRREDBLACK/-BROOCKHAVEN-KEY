@@ -130,7 +130,7 @@ Verify.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
 
         -- EXECUÇÃO CORRETA DO SCRIPT PRINCIPAL
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/THEMRREDBLACK/RED-BLACK-HUB-BROOCKHAVEN-V5/refs/heads/main/obfuscated.lua%20(1).txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/THEMRREDBLACK/RED-BLACK-HUB-BROOCKHAVEN-V5/refs/heads/main/README.md"))()
     else
         Status.Text = "Invalid key. Get it on Discord."
     end
