@@ -4,7 +4,7 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 
 -- CONFIG
-local CORRECT_KEY = "RBH-FreeKey-broockhaven-9A3F1C8E2-5D4B-49A7-B2E1-KP7M_2025-V67.988"
+local CORRECT_KEY = "RBH-FreeKey-broockhaven-9A3F1C8E2-5D4B-49A7-B2E1-KP7M_2025-V1945.1000"
 local DISCORD_KEY_LINK = "https://discord.gg/ffuFGauPdS"
 local CLICK_SOUND_ID = "rbxassetid://71294801358152"
 
@@ -130,7 +130,7 @@ Verify.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
 
         -- EXECUÇÃO CORRETA DO SCRIPT PRINCIPAL
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/THEMRREDBLACK/RED-BLACK-HUB-BROOCKHAVEN-V5/refs/heads/main/obfuscated_script-1766177896281.lua.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/THEMRREDBLACK/RED-BLACK-HUB-BROOCKHAVEN-V5/refs/heads/main/obfuscated_script-1766958566349.lua.txt"))()
     else
         Status.Text = "Invalid key. Get it on Discord."
     end
